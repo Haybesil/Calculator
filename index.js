@@ -11,3 +11,8 @@ function Display(value) {
     var result = eval(expression);
     document.getElementById('display').value = result;
   }
+
+
+  function DisplayValue(value) {
+    document.getElementById('display').value =+ value;
+  }
