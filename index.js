@@ -13,6 +13,4 @@ function Display(value) {
   }
 
 
-  function DisplayValue(value) {
-    document.getElementById('display').value =+ value;
-  }
+ 
