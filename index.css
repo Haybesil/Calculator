@@ -5,6 +5,10 @@
   margin-top: 20px;
 }
 
+.mode:hover {
+  cursor: pointer;
+}
+
 .mode i:nth-child(1) {
   color: #3D3635;
 }
