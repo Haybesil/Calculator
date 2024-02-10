@@ -1,10 +1,32 @@
+.mode {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 10vw;
+  margin-top: 20px;
+}
+
+.mode i:nth-child(1) {
+  color: #3D3635;
+}
+
+.mode i:nth-child(2) {
+  color: yellow;
+}
+
 .calculator {
     width: 200px;
     margin: 100px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #4e4e4e;
+    background-color: black;
+  }
+
+  button {
+    box-shadow: 1px 1px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
   }
   
   input[type="text"] {
